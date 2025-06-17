@@ -1,0 +1,29 @@
+/*#include<stdio.h>
+void main() {
+       int i, j;
+       clrscr();
+
+       for(i=0; i<8; i++) {
+	 printf("\n");
+	 for(j=0; j<11; j++) {
+	   printf("\t*");
+	 //}else{
+	  //printf("\t ");
+	 }
+       }
+	getchar();
+} */
+
+#include<stdio.h>
+#include<conio.h>
+void main() {
+    int a;
+    clrscr();
+
+    printf("Enter your number: ");
+    scanf("%d", &a);
+
+    printf("Entered number:%d", a);
+
+    getchar();
+}
